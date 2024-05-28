@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-custom {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.styling {
+    margin: auto;
+    max-width: 1000px;
+    font-family: Inter;
+    background-color: rgb(230, 76, 10);
+}
+
+.splash-text {
+    color:beige;
+    line-height: .85;
+}
