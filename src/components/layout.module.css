@@ -21,3 +21,20 @@
 .nav-link-text{
     color: slategrey;
 }
+
+.leftside {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    height:100%;
+    float: left;
+    background-color: brown;
+    border-collapse: collapse;
+}
+
+.rightside {
+    width: 50%;
+    height:100%;
+    float: right;
+    background-color: brown;
+    border-collapse: collapse;
+}
