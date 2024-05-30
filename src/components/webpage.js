@@ -6,7 +6,7 @@ import LinkedinPic from "../images/linkedinpic.png"
 import HandshakePic from "../images/handshakepic.png" 
 
 import { 
-    background, styling, splashText, left, right, textLeft,resize, vertical, horizontal, socialBox, socialItem, handshakeImg
+    background, styling, splashText, left, right, textLeft, textTitle, resize, vertical, horizontal, socialBox, socialItem, handshakeImg
     } from './webpage.module.css'
 
  const Webpage = ({header, leftpane, rightpane, children}) => {
@@ -35,7 +35,7 @@ import {
                 </div>
                 <div>
                     <div className={textLeft} >
-                        <h2> About Me:</h2>
+                        <h2 className={textTitle}>About Me:</h2>
                         <p>
                             I'm currently an undergraduate at Arizona State University, working on getting my Bachelor's degree.
                             I've been programming since highschool, and have always loved the intersection of technology and computers. 
@@ -47,22 +47,18 @@ import {
                             Outside of doing school and working on personal projects, I've been keeping busy by drawing and teaching myself to skateboard.
                             I just started picking up guitar too, but no one told me how bad my fingers would hurt after  ＞︿＜
                         </p>
-                        <h2> Contact:</h2>
+                        <h2 className={textTitle}>Contact:</h2>
                         <p>
                             isaiahmilkey@gmail.com
                         </p>
                         <div className={horizontal}>
-                            <ul className={socialBox}>
-                                <li>
-                                    <img src={GitPic} className={socialItem}/>
-                                </li>
-                                <li>
-                                    <img src={LinkedinPic} className={socialItem}/>
-                                </li>
-                                <li>
-                                    <img src={HandshakePic} className={socialItem} />
-                                </li>
-                            </ul>
+                            <div className={socialBox}>
+                                    <Link to="https://github.com/Isaiah-Milkey"><img src={GitPic} className={socialItem}/> </Link>
+                                    <Link to="https://www.linkedin.com/in/isaiahmilkey/"><img src={LinkedinPic} className={socialItem}/></Link>
+                                    <div className={handshakeImg}>
+                                        <Link to="https://app.joinhandshake.com/stu/users/42095524"><img src={HandshakePic} className={socialItem} /></Link>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
