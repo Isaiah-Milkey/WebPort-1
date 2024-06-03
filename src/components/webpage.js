@@ -5,9 +5,16 @@ import GitPic from "../images/gitpic.png"
 import LinkedinPic from "../images/linkedinpic.png" 
 import HandshakePic from "../images/handshakepic.png" 
 
+import ProjectItem from '../components/projectitem'
+import { 
+    project
+    } from './projectitem.module.css'
+
 import { 
     background, styling, splashText, left, right, textLeft, textTitle, resize, vertical, horizontal, socialBox, socialItem, handshakeImg
     } from './webpage.module.css'
+
+
 
  const Webpage = ({header, leftpane, rightpane, children}) => {
     return(
@@ -64,9 +71,25 @@ import {
                 </div>
             </div>
             
-
+            
             <div className={right}>
-                THIS IS THE RIGHT!
+                
+                <ProjectItem projectTitle="Project 1:" language1="Java" language2="C++">
+                    <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                </ProjectItem>
+
+                <ProjectItem projectTitle="Project 2:" language1="HTML" language2="React">
+                    <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                </ProjectItem>
+                
+                <ProjectItem projectTitle="Project 3:" language1="HTML" language2="React">
+                    <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                </ProjectItem>
+
+                <ProjectItem projectTitle="Project 4:" language1="HTML" language2="React">
+                    <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                </ProjectItem>
+
             </div>
 
         </div>
