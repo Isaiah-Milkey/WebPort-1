@@ -20,7 +20,6 @@ import {
     return(
         <div className={background}>
         <div className={styling}>
-                
             <div className = {splashText}>
                 <h1 >
                     Hey! I'm 
@@ -73,22 +72,29 @@ import {
             
             
             <div className={right}>
-                
-                <ProjectItem projectTitle="Project 1:" language1="Java" language2="C++">
+                <a href="https://github.com/Isaiah-Milkey">
+                <ProjectItem projectTitle="Project 1: Portfolio Website" language1="JS" language2="HTML" language3="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
                 </ProjectItem>
+                </a>
 
+                <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 2:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
                 </ProjectItem>
+                </a>
                 
+                <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 3:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
                 </ProjectItem>
+                </a>
 
+                <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 4:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
                 </ProjectItem>
+                </a>
 
             </div>
 
