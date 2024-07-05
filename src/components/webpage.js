@@ -29,6 +29,7 @@ import {
                 </h1>
             </div>  
         
+            <div>
             <div className={left}>
                 <div className={vertical}>
                 <img src={Pic} className={resize}/>
@@ -72,31 +73,37 @@ import {
             
             
             <div className={right}>
-                <a href="https://github.com/Isaiah-Milkey">
+                <a href="https://github.com/Isaiah-Milkey/WebPort-1">
                 <ProjectItem projectTitle="Project 1: Portfolio Website" language1="JS" language2="HTML" language3="React">
-                    <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                    <p>The website you are currently viewing! Designed using Figma, then adapted with JavaScript/HTML/CSS. I used the Gatsby tutorial to learn the basics, then customized it to make it my own.</p>
+                    <br></br>
                 </ProjectItem>
                 </a>
 
                 <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 2:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                    <br></br>
                 </ProjectItem>
                 </a>
                 
                 <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 3:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                    <br></br>
                 </ProjectItem>
                 </a>
 
                 <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 4:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
+                    <br></br>
                 </ProjectItem>
                 </a>
 
             </div>
+            </div>
+           
 
         </div>
         </div>

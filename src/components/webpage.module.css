@@ -34,10 +34,18 @@
 }
 
 .styling {
+    display: block;
+    padding-left: 5%;
+    padding-right:5% ;
     margin: auto;
-    max-width: 1000px;
     font-family: Inter;
     text-shadow: 0px 2.5px 3px #84473a;
+    @media (min-width: 1800px) {
+        min-width: 40%;
+        max-width: 90%;
+        padding-left: 30%;
+        padding-right: 30%;
+      } 
 }
 
 .splash-text {
@@ -49,11 +57,8 @@
 
 .left,
 .right {
-    /* display: flex; */
-    min-width: 500px;
-    max-width: 500px;
-    padding: 0;
-
+    max-width: 100%;
+    
     font-size: 16px;
     font-weight: 650;
     color:rgb(255, 255, 255);
@@ -61,16 +66,27 @@
 }
 
 .left {
+    min-width: 40%;
+    min-height: 30%;
     float: left;
     
+    @media (min-width: 1800px) {
+        max-width: 30%;
+        min-width: 50%;
+      }
 }
 .right {
+    min-width: 40%;
+    min-height: 30%;
     float: right;
-    display: inline-block;
+    
+    @media (min-width: 1800px) {
+        max-width: 30%;
+        min-width: 50%;
+      }
 }
 
 .text-left {
-    /* max-width:12%; */
     padding: 5px;
 }
 
@@ -88,8 +104,8 @@
 }
 
 .vertical {
-    vertical-align: baseline;
-    display: inline-block;
+    /* vertical-align: baseline;
+    display: block; */
 }
 
 .horizontal {
