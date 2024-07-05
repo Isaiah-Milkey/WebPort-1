@@ -1,13 +1,11 @@
 import * as React from 'react'
+import Webpage from '../components/webpage'
 import Layout from '../components/layout'
 //import { Link } from 'gatsby'
 
 const IndexPage = () => {
   return (
-    //Using the layout i made in components...
-    <Layout pageTitle="Home Page"> { /* //Every layout needs a pageTitle, and childern. Title is defined here */ }
-      <p>Hello! This is the beginning of my personal portfolio, which I'm building with Gatsby and React</p> { /* //I guess this would count as children? */ }
-    </Layout>
+    <Webpage></Webpage>
   )
 }
 

@@ -8,7 +8,7 @@ const AboutPage = () => {
   //Using Layout from components... 
     <>
     
-      <Webpage></Webpage>
+      {/* <Webpage></Webpage> */}
 
     </>
   )
