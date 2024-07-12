@@ -80,7 +80,7 @@ import {
                 </ProjectItem>
                 </a>
 
-                <a href="https://github.com/Isaiah-Milkey">
+                {/* <a href="https://github.com/Isaiah-Milkey">
                 <ProjectItem projectTitle="Project 2:" language1="HTML" language2="React">
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
                     <br></br>
@@ -99,7 +99,7 @@ import {
                     <p>This is example text for the project. Here information and fun facts will be put on display for the project. MORE INTDFSKNLAKSDFM LASDNLAKSDLK ASNDA ASN </p>
                     <br></br>
                 </ProjectItem>
-                </a>
+                </a> */}
 
             </div>
             </div>

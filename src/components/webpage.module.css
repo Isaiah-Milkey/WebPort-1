@@ -88,6 +88,8 @@
 
 .text-left {
     padding: 5px;
+    margin-top: 15px;
+    text-align: left;
 }
 
 .text-title {
